@@ -1,0 +1,18 @@
+- To check git installed or not
+    > git version
+- Make your folder a repository
+    > git init
+    > git add file_name(To send file to staging area)
+    > git status
+    > git commit 
+    - Press I to write the message in vim editor
+    - to exit vim , press escape and type :wq (this means write and quit)
+Another way to commit without opening the vim editor
+    > git commit -m "Adding file2.txt"
+
+    To move to another version or previous version
+    > git log
+    > git checkout [commit-id], 0fe86eddf00848208f8d5e5e058e2494e48b2d59 
+    - You will be able to see the code at that point of time
+    - To go to the latest version
+    > git checkout master
